@@ -33,7 +33,21 @@ class CustomHomeRow extends StatelessWidget {
           child: Image.asset("assets/filter.png"),
         ),
         horizontalSpace(5),
-        const Icon(Icons.notifications_outlined)
+        Stack(
+          children: [
+            Icon(
+              Icons.notifications_outlined,
+              color: grey,
+            ),
+            Positioned(
+                top: 1,
+                right: 5,
+                child: CircleAvatar(
+                  radius: 4,
+                  backgroundColor: Colors.red,
+                ))
+          ],
+        )
       ],
     );
   }

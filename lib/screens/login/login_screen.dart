@@ -36,7 +36,7 @@ class LoginScreen extends StatelessWidget {
                   GestureDetector(
                     onTap: () {
                       GoRouter.of(context).push(
-                        AppRouter.kHome,
+                        AppRouter.kRegister,
                       );
                     },
                     child: Text(

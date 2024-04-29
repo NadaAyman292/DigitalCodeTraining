@@ -1,5 +1,6 @@
 import 'package:digital_code_training/helpers/spacing.dart';
 import 'package:digital_code_training/screens/home/widgets/custom_text.dart';
+import 'package:digital_code_training/widgets/bottom_nav_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'widgets/about_us_widget.dart';
